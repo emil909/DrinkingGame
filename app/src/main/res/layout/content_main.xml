@@ -18,15 +18,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/nav_graph" />
 
-    <EditText
-        android:id="@+id/NumberOfPlayers"
-        android:layout_width="215dp"
-        android:layout_height="174dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="100dp"
-        android:ems="10"
-        android:hint="How many players?"
-        android:inputType="number"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
